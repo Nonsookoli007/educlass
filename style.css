@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background: rgba(243, 248, 255, 1);
+    margin: rem;
+    padding: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    height: 130vh;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav p{
+    font-weight: 700;
+    font-size: 21.92px;
+    color: rgba(6, 56, 82, 1);
+    position: absolute;
+    left: 65px;
+}
+.links{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+
+}
+.links a{
+    text-decoration: none;
+    color: rgba(158, 163, 174, 1);
+}
+.links .in{
+    position: relative;
+    left: -7rem;
+}
+.links button{
+background: #2374ee;
+border: none;
+border-radius: 15px;
+width: 90px;
+height: 35px;
+color: white;
+position: relative;
+top:-0.5rem;
+}
+/* End Of NavBar */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header img{
+    position: relative;
+    top: 2rem;
+}
+.header h1{
+    position: relative;
+    top: 4rem;
+    font-size: 62px;
+}
+.header span{
+    color: rgba(35, 116, 238, 1);
+}
+.para{
+    font-size: 18px;
+    color: rgba(158, 163, 174, 1);
+    position: relative;
+    top: -22rem;
+    z-index: auto;
+}
+.bic{
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    top: -19rem;
+}
+
+.tf button{
+    background: rgba(35, 116, 238, 1);
+    color: white;
+    border: transparent;
+    width: 130px;
+    height: 40px;
+    border-radius: 37px;
+}
+.im{
+    position: relative;
+    bottom: -0.5rem;
+    padding-right: 0.5rem;
+}
+/* End Of Header */
+
+.s2{
+    padding: 1.5rem;
+}
+.ac{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: -6rem;
+}
+.ac h2{
+    color: black;
+    font-size: 38px;
+    font-weight: 700;
+    position: relative;
+    bottom: -1.5rem;
+}
+.s2 p{
+    color: rgba(158, 163, 174, 1);
+    font-size: 18px;
+    position: relative;
+    top: -11.6rem;
+}
+.you{
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    top: -10rem;
+}
+.you .ig{
+    color: rgba(35, 116, 238, 1);
+    font-size: 25px;
+    position: relative;
+}
+.you img{
+    position: relative;
+    padding-right: 0.8rem;
+}
+.phone p{
+    margin-top: 11.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+}
+.man{
+    display: flex;
+}
+.s2 button{
+    background: rgba(35, 116, 238, 1);
+    border: none;
+    color: white;
+    border-radius: 40px;
+    width: 150px;
+    height: 45px;
+    position: relative;
+    top: -7rem;
+}
+/* End Of Section 1 */
+
+.del{
+    padding: 1.5rem;
+}
+.boy{
+    position: relative;
+    top: -15rem;
+}
+.boy h3{
+    font-size: 40px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    line-height: 4.5rem;
+}
+.boy p{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: rgba(108, 114, 127, 1);
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    position: relative;
+    top: -10rem;
+}
+
+.grid .h{
+    color: rgba(255, 183, 0, 1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 4rem;
+}
+.grid h4{
+    font-size: 32px;
+    position: relative;
+    top: -1rem;
+}
+.grid .in{
+    font-size: 16px;
+    color:rgba(108, 114, 127, 1);
+}
+.grid a{
+    color: rgba(35, 116, 238, 1);
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 3rem;
+}
+/* End Of Section 2 */
+
+.don3{
+    /* background: rgba(35, 116, 238, 1); */
+    padding-top: 2rem;
+    height: 215vh;
+    position: relative;
+    top: -8rem;
+    padding: 1.5rem;
+}
+.gen{
+    background:  rgba(35, 116, 238, 1);
+    height: 78vh;
+    width: 100%;
+    padding-top: 50px;
+}
+.et{
+    color: white;
+    display:flex ;
+    justify-content: center;
+}
+.it h2{
+    display: flex;
+    justify-content: center;
+    font-size: 33px;
+    line-height: 4rem;
+}
+.it .ic{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+.sht{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 60vh;
+    /* width: 1140px; */
+}
+.child{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 280px;
+    width: 300px;
+    margin-top: 20px;
+    border: transparent;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgb(54, 54, 54);
+}
+.child:hover{
+    transform: scale(0.96);
+}
+.abc{
+    display: flex;
+    background-color: rgba(158, 163, 174, 1);
+    height: 60px;
+    width: 60px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    margin-left: 120px;
+    margin-bottom: 10px;
+}
+.ph h2{
+    padding-left: 70px;
+    height: 30px;
+}
+.ph .ky{
+    padding-left: 90px;
+    height: 30px;
+}
+.ph .y{
+    padding-left: 90px;
+    color: rgba(158, 163, 174, 1);
+}
+.ph .y-2{
+    padding-left: 95px;
+    color: rgba(158, 163, 174, 1);
+}
+.ph .y-3{
+    padding-left: 110px;
+    color: rgba(158, 163, 174, 1);
+}
+.ft{
+    color: grey;
+    font-size: 13px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.btl{
+    position: relative;
+    left: 4.5rem;
+}
+.btr{
+    position: relative;
+    right: 4.5rem;
+}
+.ik a{
+    background:  rgba(35, 116, 238, 1);
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 15px 35px;
+    margin-left: 43%;
+}
+.ik:hover{
+    transform: scale(0.94);
+}
+.ik{
+    margin-top: 54px;
+}
+.stan{
+    margin-top: 50px;
+}
+.stan h2{
+    display: flex;
+    justify-content: center;
+    font-size: 33px;
+    line-height: 4rem;
+}
+.stan p{
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+
+.over{
+    display: flex;
+    justify-content: center;
+    gap: 4.5rem;
+    margin-top: 60px;
+    
+}
+.frame{
+    display: flex;
+    
+}
+.frame p{
+    padding: 15px;
+    color: grey;
+}
+.frame span{
+    color: black;
+    font-size: 26px;
+    font-weight:700;
+}
+.go p{
+    padding-top: 10px;
+    color: grey;
+    font-size: 16px;
+}
+.go h2{
+    font-size: 40px;
+    padding-top: 10px;
+}
+.go span{
+    color: grey;
+    font-size: 16px;
+}
+.go .what{
+    color: black;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cb span{
+    line-height: 35px;
+}
+.gs a{
+    background:  rgba(35, 116, 238, 1);
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 15px 75px;   
+}
+.gs{
+    margin-top: 35px;
+}
+
+.pit{
+    background:  rgba(35, 116, 238, 1);
+    color: white;
+    border-radius: 7px;
+    width: 300px;
+    height: 440px;
+    padding: 20px;
+    margin-top: -35px;
+    
+}
+.box2{
+    display: flex;
+    gap: 1rem;
+}
+.box2 span{
+    font-size: 26px;
+    font-weight:700;
+}
+.og{
+    padding-top: 10px;
+}
+.og p{
+    font-size: 16px;
+    height: 20px;
+}
+.og h2{
+    font-size: 40px;
+    padding-top: 30px;
+}
+.og span{
+    font-size: 16px;
+}
+.og .wht{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.can span{
+   line-height: 35px;   
+}
+.gas a{
+    background: rgb(249, 243, 243);
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 15px 75px;
+    color:   rgba(35, 116, 238, 1);
+}
+.gas{
+    margin-top: 35px;
+}
+.pit:hover{
+    transform: scale(0.95);
+    border: transparent;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgb(54, 54, 54);
+}
+.dc{
+    width: 300px;
+    padding-left: 60px;
+    height: 460px;
+}
+.dc:hover{
+    transform: scale(0.95);
+    border: transparent;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgb(54, 54, 54);
+}
+/* End of Don Section */
+
+.footersec{
+    background: #063852;
+    height: 110vh;
+    padding: 1.5rem;
+}
+.footer{
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footerH{
+    color: white;
+}
+.footerH h2{
+    padding-top: 75px;
+    font-size: 50px;
+}
+.footerp{
+    padding-top: 20px;
+    color: grey;
+}
+.tm{
+    display: flex;
+    gap: 2rem;
+    padding-top:30px;
+}
+.tm a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.tm button{
+    background: rgba(35, 116, 238, 1);
+    color: white;
+    border: transparent;
+    width: 150px;
+    height: 50px;
+    border-radius: 37px;
+}
+.tm p{
+    display: flex;
+    align-items: center;
+}
+.tm .qa{
+    padding-right: 20px;
+}
+.young{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.young h2{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+}
+.young a{
+    text-decoration: none;
+    color: white;
+}
+.footl{
+    list-style: none;
+    display: flex;
+}
+.footl{
+    display: flex;
+    gap: 5rem;
+    padding-top: 15px;
+}
+.ll{
+    padding-top: 15px;
+    color: grey;
+}
